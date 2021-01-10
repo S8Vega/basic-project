@@ -1,20 +1,20 @@
-{
-    "name": "s8/basic-project",
-    "description": "Basic project of composer",
-    "license": "MIT",
-    "authors": [
-        {
-            "name": "S8Vega",
-            "email": "bsebastianvg18@gmail.com"
-        }
-    ],
-    "require": {},
-    "autoload": {
-        "psr-4": {
-            "App\\": "app/"
-        },
-        "files": [
-            "app/helpers.php"
-        ]
+{	
+  "name": "s8/basic-project",	 
+  "description": "Basic project of composer",	 
+  "license": "MIT",	 
+  "authors": [	    
+    {  
+          "name": "S8Vega",	     
+          "email": "bsebastianvg18@gmail.com"
     }
+  ],
+  "require": {},
+  "autoload": {
+    "psr-4": {
+      "App\\": "app/"
+    },
+    "files": [
+      "app/helpers.php"
+    ]
+  }
 }
