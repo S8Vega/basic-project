@@ -33,9 +33,10 @@ class Request
 
     public function getController()
     {
+        //home, Home
         $controller = ucfirst($this->controller);
 
-        return "App\Controllers\\{$controller}Controller";
+        return "App\Http\Controllers\\{$controller}Controller";
     }
 
     public function getMethod()

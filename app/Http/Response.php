@@ -4,11 +4,11 @@ namespace App\Http;
 
 class Response
 {
-    protected $view;
+    protected $view; //array, json, pdf...
 
     public function __construct($view)
     {
-        $this->view = $view;
+        $this->view = $view; //home, contact
     }
 
     public function getView()
